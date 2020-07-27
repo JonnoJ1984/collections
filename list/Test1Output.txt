@@ -1,0 +1,37 @@
+ 
+  ----jGRASP exec: java collections.list.Test1
+ Size of list = 4
+ List values at each index:
+ Sue
+ Bill
+ George
+ Sam
+ Insert value 'Jonathan' at index 2.
+ Sue
+ Bill
+ Jonathan
+ George
+ Sam
+ Size of list = 5
+ Remove value at index 4.
+ Bill
+ Jonathan
+ George
+ Sam
+ Size of list = 4
+ Remove value at index 4.
+ Bill
+ Jonathan
+ 
+ Sam
+ Size of list = 4
+ Set value at index 2 to 'Meghan'.
+ 2
+ -1
+ Bill
+ Jonathan
+ Meghan
+ Sam
+ 
+  ----jGRASP: operation complete.
+ 
