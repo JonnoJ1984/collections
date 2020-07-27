@@ -1,0 +1,53 @@
+//This is like Akady's example
+//Creating your own exception must extend an actual 
+
+public static projects.exceptions;
+
+
+
+
+
+public classExceptionTest extends RunTimeException
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Calling exception test!");
+        
+        try
+        {
+            exceptionText();
+        }
+        catch(TestException te)
+        {
+            System.out.println(te);
+        }
+        finally
+        {
+            System.out.println("Closing any open resources!);
+        }
+        System.out.println("Goodbye!");
+            
+    }
+}
+
+
+class TestException
+{
+    public TestException()
+    {
+        super();
+    }
+    
+    public TestException(String message)
+    {
+        super(message);
+    }
+    
+       
+}
+
+public static void exceptionTest() throws TestException
+{
+    TestException te = new TestExcpetion("An exception has been thrown!");
+    throw te;
+}

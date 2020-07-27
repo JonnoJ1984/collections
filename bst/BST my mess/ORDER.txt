@@ -1,0 +1,6 @@
+package collections.bst
+
+public enum Order //enumeration meaning!  This is old-school java apparently...
+{
+    IN_ORDER, PRE_ORDER, POST_ORDER;
+}
